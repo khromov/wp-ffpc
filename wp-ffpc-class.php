@@ -162,6 +162,7 @@ class WP_FFPC extends WP_FFPC_ABSTRACT {
 			'$remote_user' => __('Name of user, authenticated by the Auth Basic Module', 'wp-ffpc'),
 			'$cookie_PHPSESSID' => __('PHP Session Cookie ID, if set ( empty if not )', 'wp-ffpc'),
 			'$accept_lang' => __('First HTTP Accept Lang set in the HTTP request', 'wp-ffpc'),
+			'$release' => __('A unique release number. You can set this dynamically to invalidate cache on new releases by setting the following in wp-config.php (or another included file): <pre>define("WP_RELEASE", "1.0");</pre>')
 			//'$cookie_COOKnginy IE' => __('Value of COOKIE', 'wp-ffpc'),
 			//'$http_HEADER' => __('Value of HTTP request header HEADER ( lowercase, dashes converted to underscore )', 'wp-ffpc'),
 			//'$query_string' => __('Full request URI after rewrites', 'wp-ffpc'),
