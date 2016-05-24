@@ -808,7 +808,7 @@ class WP_FFPC extends WP_FFPC_ABSTRACT {
 					<label for="authpass"><?php _e('Authentication: password', 'wp-ffpc'); ?></label>
 				</dt>
 				<dd>
-					<input type="password" autocomplete="off" name="authpass" id="authpass" value="<?php echo $this->options['authpass']; ?>" />
+					<input type="text" autocomplete="off" name="authpass" id="authpass" value="<?php echo $this->options['authpass']; ?>" />
 					<span class="description">
 					<?php _e('Password for authentication with for backends - WARNING, the password will be stored in an unsecure format!', 'wp-ffpc'); ?></span>
 				</dd>
